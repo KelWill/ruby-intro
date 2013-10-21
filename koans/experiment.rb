@@ -1,3 +1,5 @@
-puts nil.inspect
+def my_global_method(a,b)
+  a + b
+end
 
-puts 'nil' == nil.inspect
+my_global_method
